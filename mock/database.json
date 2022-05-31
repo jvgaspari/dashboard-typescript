@@ -1,0 +1,122 @@
+{
+  "employees": [
+    {
+      "id": 6,
+      "nomeCompleto": "Juca Silva",
+      "email": "Juca@gmail.com",
+      "franchiseId": 1
+    },
+    {
+      "id": 7,
+      "nomeCompleto": "Maria Silva",
+      "email": "maria@gmail.com",
+      "franchiseId": 3
+    },
+    {
+      "id": 8,
+      "franchiseId": 1,
+      "email": "carlos@gmail.com",
+      "nomeCompleto": "Carlos Silva"
+    },
+    {
+      "id": 9,
+      "franchiseId": 1,
+      "email": "pedro@gmail.com",
+      "nomeCompleto": "Pedro Silva"
+    },
+    {
+      "id": 10,
+      "franchiseId": 1,
+      "email": "alfredo@gmail.com",
+      "nomeCompleto": "Alfredo Silva"
+    },
+    {
+      "id": 11,
+      "franchiseId": 1,
+      "email": "alfredo@gmail.com",
+      "nomeCompleto": "Alfredo Silva"
+    },
+    {
+      "id": 12,
+      "franchiseId": 1,
+      "email": "Juca@gmail.com",
+      "nomeCompleto": "Juca Silva"
+    },
+    {
+      "id": 13,
+      "franchiseId": 1,
+      "email": "maria@gmail.com",
+      "nomeCompleto": "Maria Silva"
+    },
+    {
+      "id": 14,
+      "franchiseId": 1,
+      "email": "carlos@gmail.com",
+      "nomeCompleto": "Carlos Silva"
+    },
+    {
+      "id": 154,
+      "franchiseId": 1,
+      "email": "pedro@gmail.com",
+      "nomeCompleto": "Pedro Silva"
+    },
+    {
+      "id": 16,
+      "franchiseId": 1,
+      "email": "alfredo@gmail.com",
+      "nomeCompleto": "Alfredo Silva"
+    },
+    {
+      "nomeCompleto": "Ana Silva",
+      "email": "ana@gmail.com",
+      "franchiseId": "1",
+      "id": 156
+    },
+    {
+      "nomeCompleto": "Geronimo",
+      "email": "geronimo@gmail.com",
+      "franchiseId": 5,
+      "id": 157
+    },
+    {
+      "nomeCompleto": "jose",
+      "email": "asd@email.com",
+      "franchiseId": 6,
+      "id": 158
+    }
+  ],
+  "franquias": [
+    {
+      "nome": "Porto Alegre",
+      "id": 1
+    },
+    {
+      "nome": "Novo Hamburgo",
+      "id": 2
+    },
+    {
+      "nome": "Taquara",
+      "id": 3
+    },
+    {
+      "nome": "Palmitinho",
+      "id": 4
+    },
+    {
+      "nome": "Caxias",
+      "id": 5
+    },
+    {
+      "nome": "Sapucaia do Sul",
+      "id": 6
+    },
+    {
+      "nome": "Tramandaí",
+      "id": 7
+    },
+    {
+      "nome": "São Paulo",
+      "id": 8
+    }
+  ]
+}
