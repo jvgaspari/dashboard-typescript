@@ -82,13 +82,14 @@ export const ListFranchises: React.FC = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell width={100}>Ações</TableCell>
               <TableCell>Nome</TableCell>
+              <TableCell width={100}>Ações</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {rows.map(row => (
               <TableRow key={row.id}>
+                <TableCell>{row.nome}</TableCell>
                 <TableCell>
                   <IconButton size="small" onClick={() => handleDelete(row.id)}>
                     <Icon>delete</Icon>
@@ -97,7 +98,6 @@ export const ListFranchises: React.FC = () => {
                     <Icon>edit</Icon>
                   </IconButton>
                 </TableCell>
-                <TableCell>{row.nome}</TableCell>
               </TableRow>
             ))}
           </TableBody>

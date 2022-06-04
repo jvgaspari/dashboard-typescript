@@ -82,14 +82,16 @@ export const ListEmployee: React.FC = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell width={100}>Ações</TableCell>
               <TableCell>Nome completo</TableCell>
               <TableCell>Email</TableCell>
+              <TableCell width={100}>Ações</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {rows.map(row => (
               <TableRow key={row.id}>
+                <TableCell>{row.nomeCompleto}</TableCell>
+                <TableCell>{row.email}</TableCell>
                 <TableCell>
                   <IconButton size="small" onClick={() => handleDelete(row.id)}>
                     <Icon>delete</Icon>
@@ -98,8 +100,6 @@ export const ListEmployee: React.FC = () => {
                     <Icon>edit</Icon>
                   </IconButton>
                 </TableCell>
-                <TableCell>{row.nomeCompleto}</TableCell>
-                <TableCell>{row.email}</TableCell>
               </TableRow>
             ))}
           </TableBody>
