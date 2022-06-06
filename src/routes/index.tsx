@@ -30,6 +30,11 @@ export const AppRoutes = () => {
         path: '/colaboradores',
         label: 'Colaboradores',
       },
+      {
+        icon: 'attach_money',
+        path: '/financas',
+        label: 'Faturamento',
+      },
     ]);
   }, []);
 
